@@ -8,19 +8,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
 }
 
 #movies {
     font-size: 20px;
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
     min-width: 500px;
-    margin: 0 auto;
-    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 #movies li {
-    padding: 20px;
-    border-bottom: 1pc solid gray;
+    list-style: none;
+    padding: 15px;
+    border-bottom: 1px solid #d5d5d5;
 }
 
 #movies li:last-child {
